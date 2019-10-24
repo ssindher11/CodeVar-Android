@@ -16,7 +16,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:text="@string/notificationTitle"
-            android:textColor="@color/Title"
+            android:textColor="@color/title"
             android:textSize="34sp"
             app:fontFamily="@font/blinker_semibold"
             app:layout_constraintStart_toStartOf="parent"

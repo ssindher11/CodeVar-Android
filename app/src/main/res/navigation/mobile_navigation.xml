@@ -8,31 +8,31 @@
     <fragment
         android:id="@+id/navigation_timeline"
         android:name="com.vit.codevar.ui.TimelineFragment.TimelineFragment"
-        android:label="@string/title_timeline"
+        android:label="@string/timelineTitle"
         tools:layout="@layout/fragment_timeline" />
 
     <fragment
         android:id="@+id/navigation_consumables"
         android:name="com.vit.codevar.ui.ConsumablesFragment.ConsumablesFragment"
-        android:label="@string/title_Consumables"
+        android:label="@string/consumablesTitle"
         tools:layout="@layout/fragment_consumables" />
 
     <fragment
         android:id="@+id/navigation_help"
         android:name="com.vit.codevar.ui.HelpFragment.HelpFragment"
-        android:label="@string/title_help"
+        android:label="@string/helpTitle"
         tools:layout="@layout/fragment_help"/>
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.vit.codevar.ui.NotficationFragment.NotificationFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/notificationsTitle"
         tools:layout="@layout/fragment_notification"/>
 
     <fragment
         android:id="@+id/navigation_info"
         android:name="com.vit.codevar.ui.InfoFragment.InfoFragment"
-        android:label="@string/title_info"
+        android:label="@string/informationTitle"
         tools:layout="@layout/fragment_info"/>
 
 </navigation>

@@ -1,13 +1,32 @@
 <resources>
     <string name="app_name">CodeVar</string>
 
-    <string name="title_timeline">Timeline</string>
-    <string name="title_Consumables">Consumables</string>
-    <string name="title_help">Help</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_info">Information</string>
+    <string name="logInTitle">Welcome to \n CodeVar</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="logInButtonText">Login</string>
+    <string name="logInMessage">Login with your CodePark credentials</string>
 
-    <string name="timelineTitle">Timeline</string>
+    <string name="defaultFragmentName">TIMELINE</string>
+
+    <string name="defaultRoundName">Welcome!</string>
+    <string name="participantsArrival">Participant\'s Arrival</string>
+    <string name="roundOne">Round 1</string>
+    <string name="pizza">Pizza</string>
+    <string name="roundTwo">Round 2</string>
+    <string name="funEvent">Fun Event</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="roundThree">Round 3</string>
+    <string name="lunch">Lunch</string>
+    <string name="roundFour">Round 4</string>
+    <string name="breakEnd">Break</string>
+    <string name="eventEnd">All the best!</string>
+
+    <string name="timelineTitle">TIMELINE</string>
+    <string name="consumablesTitle">CONSUMABLES</string>
+    <string name="helpTitle">HELP</string>
+    <string name="notificationsTitle">NOTIFICATIONS</string>
+    <string name="informationTitle">INFORMATION</string>
 
     <string name="notificationTitle">Notification</string>
     <string name="notificationRecycleView">Test</string>

@@ -8,20 +8,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/timelineTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginLeft="30dp"
+        <com.txusballesteros.widgets.FitChart
+            android:id="@+id/timelineChart"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:layout_marginTop="30dp"
-            android:text="@string/timelineTitle"
-            android:textColor="@color/Title"
-            android:textSize="34sp"
-            app:fontFamily="@font/blinker_semibold"
+            app:animationMode="linear"
+            app:backStrokeColor="@color/background"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeSize="15dp" />
 
-
+        <TextView
+            android:id="@+id/currentRoundName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/blinker_semibold"
+            android:text="@string/defaultRoundName"
+            android:textAlignment="center"
+            android:textColor="@color/textWhite"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/timelineChart"
+            app:layout_constraintEnd_toEndOf="@+id/timelineChart"
+            app:layout_constraintStart_toStartOf="@+id/timelineChart"
+            app:layout_constraintTop_toTopOf="@+id/timelineChart" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
